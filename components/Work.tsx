@@ -6,7 +6,7 @@ const Work = () => {
   const project = data;
 
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#61876E]">
+    <div id="work" className="w-full md:h-screen text-gray-300 bg-[#61876E]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-08">
           <p className="text-4xl font-bold inline border-b-4 text-[#EEEEEE] border-[#EAE7B1]">
