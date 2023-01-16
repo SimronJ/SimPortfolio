@@ -10,9 +10,9 @@ export const Navbar = () => {
   return (
     <div className="fixed top-0 w-full h-[80px] flex justify-center items-center px-4 bg-[#3C6255] text-white">
       {/* Menu */}
-      <ul className="hidden md:flex">
+      <ul id="navbarul" className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link className="" to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
@@ -41,6 +41,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       <ul
+        id="navbarul"
         className={
           !nav
             ? "hidden"
@@ -80,9 +81,19 @@ export const Navbar = () => {
         </li>
       </ul>
 
+      {/* Resume button */}
+      <a
+        href="https://www.example.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-4 p-2 bg-transparent border-2 border-[#EAE7B1] text-[#EEEEEE] text-lg font-bold uppercase rounded-md transition-colors duration-700 transform hover:bg-[#A6BB8D] hover:text-gray-100 focus:border-4 absolute right-8"
+      >
+        Resume
+      </a>
+
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
+        <ul id="socialIcons">
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"

@@ -1,4 +1,5 @@
 
+// color palettes use: https://colorhunt.co/palette/3c625561876ea6bb8deae7b1 and https://colorhunt.co/palette/658864b7b78addddddeeeeee
 export const data = [
   {
     id: 1,
