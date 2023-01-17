@@ -83,7 +83,7 @@ export const Navbar = () => {
 
       {/* Resume button */}
       <a
-        href="https://www.example.com"
+        href="https://bit.ly/Sim-Resume"
         target="_blank"
         rel="noopener noreferrer"
         className="px-4 p-2 bg-transparent border-2 border-[#EAE7B1] text-[#EEEEEE] text-lg font-bold uppercase rounded-md transition-colors duration-700 transform hover:bg-[#A6BB8D] hover:text-gray-100 focus:border-4 absolute right-8"
